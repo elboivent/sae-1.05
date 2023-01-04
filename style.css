@@ -1,3 +1,69 @@
+@font-face {
+    font-family:'Archicoco';
+    src: url("police/Archicoco.woff") format('woff'),url("police/Archicoco.woff2") format('woff2');
+}
+body{
+    background-color: #d6deea;
+    margin:0px;
+}
+main{
+    margin-top: 2em;
+    height: 20em;
+    background-color: #27375b;
+}
 header{
-  background-color:#2227DD;
-  }
+    display: flex;
+    flex-direction: row;
+    background-color: #27375b;
+    height: 6em;
+    align-items: center;
+    justify-content: space-around;
+}
+.entete img{   
+    height: 4em;
+}
+.menu{
+    padding: 0.5em 0em;
+    height: 28%;
+    width: 9.5em;
+    background-color: #3a716d;
+    text-align: center;
+    border-radius: 2em;
+}
+.menu:hover img{
+    background-color: #27375b;
+}
+.menu ul{
+    border-radius: 1em;
+    padding: 0.5em;
+    margin-top: 2em;
+    display: none;
+    background-color: #3a716d;
+    padding-left: 0em;
+    list-style-type: none;
+}
+.menu li{
+    padding: 0.3em 0em 0.3em 0em;
+    font-family:'Arial';
+    font-size: 0.9em;
+}
+.menu>a{
+    font-size:1.3em;
+    font-family:'Archicoco';
+}
+
+
+/* add */
+
+#heb_main img{
+    width: 50%;
+    height: 50%;
+}
+.heb_div{
+    width: 30%;
+}
+#heb_main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
